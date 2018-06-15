@@ -1,0 +1,209 @@
+body {
+ margin: 0;
+ background-image: url("../images/background1.jpg");
+
+ font-family: 'Raleway', sans-serif;
+ color: #3F3332;
+
+ position: absolute;
+}
+
+#container {
+  margin: 5% 10%;
+  padding: 0;
+  width: 80%;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+header { /* BIG Lana Maes */
+  width: 100%;
+  margin-top: 5%;
+  padding: 20px 0px;
+  background-color: white;
+  position: relative;
+}
+
+#logo {
+  width: 125px;
+  height: 102px;
+  background-image: url("../images/logoLM1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+#logo:hover {
+  background-image: url("../images/logoLM2.png");
+}
+#logo:active {
+  background-image: url("../images/logoLM2.png");
+}
+
+
+
+h2, h3, h4 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+/* Personal info */
+aside {
+  margin: 0.5% 0.5% 5% 0.5%;
+  width: 29%;
+  padding: 20px 0px;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  position: relative;
+
+  text-align: center;
+  font-size: 14px;
+}
+
+#pasfoto {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  top: -25px;
+
+  width: 40%;
+}
+
+blockquote {
+  margin: 10px 0px;
+  padding: 5%;
+  border-top: 3px dotted #AC133D;
+  border-bottom: 3px dotted #AC133D;
+}
+
+aside table {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
+#interests {
+  width: 90%;
+  margin: auto;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  border: 1px solid #AC133D;
+  border-radius: 50%;
+
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: inline-block;
+}
+
+#books {
+  background-image: url("../images/icons/books.png");
+}
+#creative {
+  background-image: url("../images/icons/creative.png");
+}
+#animals {
+  background-image: url("../images/icons/dog.png");
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#socialMedia {
+  width: 90%;
+  margin: auto;
+}
+
+/* Experience */
+main {
+  margin: 0.5% 0.5% 5% 0.5%;
+  width: 69%;
+  background-color: white;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.sectie {
+  position: relative;
+  width: 100%;
+  margin: 0px 0px 90px 0px;
+}
+
+.mainKop {
+  padding-left: 20px;
+  margin: 20px 0px 0px 0px;
+  width: 50%;
+  height: 55px;
+  background-color: #AC133D;
+  color: white;
+  line-height: 55px;
+}
+
+.koppenLeft {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  left: -5px;
+}
+
+.koppenRight {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  right: -5px;
+}
+
+.textLeft {
+  position: relative;
+  padding: 0px 30px;
+  top: 95px;
+}
+
+.textRight {
+  text-align: right;
+  position: relative;
+  padding: 0px 30px;
+  top: 95px;
+}
+
+/* tables left */
+.sectie .textLeft table {
+  width: 90%;
+}
+
+/* tables right */
+.sectie .textRight table {
+  width: 100%;
+}
+
+#edu tr td {
+  padding: 5px;
+  border-bottom: 1px solid #FEB5B5;
+}
+
+.company {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/* resize icons*/
+.textLeft table tr td img  {
+  width: 60px;
+}
+.textRight table tr td img {
+  width: 60px;
+}
